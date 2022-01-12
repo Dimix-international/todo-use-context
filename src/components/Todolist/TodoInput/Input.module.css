@@ -1,0 +1,36 @@
+.todoInput {
+    background: #2c4150;
+    color: #fff;
+    border: 1px solid #707070;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+.todoInput__title {
+    font-size: 1.4rem;
+    color: #fff;
+}
+
+.todoInput__form {
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+}
+
+.todoInput__input {
+    flex: 1 1 auto;
+    height: 50px;
+    padding:0  17px;
+    border: 1px solid #707070;
+}
+
+.todoInput__submitBtn {
+    flex: 0 0 150px;
+    height: 50px;
+    border: 1px solid #707070;
+    border-radius: 15px;
+    color: #fff;
+    cursor: pointer;
+    padding: 0 17px;
+    background: #b4b4b4;
+}
